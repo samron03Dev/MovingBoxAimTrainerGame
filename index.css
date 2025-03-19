@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+#game-container {
+    width: 1900px;
+    height: 850px;
+    border: 10px solid black;
+}
+
+#ball {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    left: 1px;
+    top: 1px;
+}
+
+h1 {
+    user-select: none;
+}
+
